@@ -21,10 +21,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void MyTimerEvent(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void GameKeyDown(object sender, KeyEventArgs e)
         {
@@ -49,7 +46,7 @@ namespace WindowsFormsApp2
             MyTimer.Stop();
             lblScore.Text += " Game over!!!";
         }
-        private void gameTimerEvent(object sender, EventArgs e)
+        private void gameTimerEven(object sender, EventArgs e)
         {
             FlappyBird.Top += gravity; 
             PipeUp.Left -= PipeSpeed; 
