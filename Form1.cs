@@ -46,7 +46,7 @@ namespace WindowsFormsApp2
             MyTimer.Stop();
             lblScore.Text += " Game over!!!";
         }
-        private void gameTimerEven(object sender, EventArgs e)
+        private void gameTimerEvent(object sender, EventArgs e)
         {
             FlappyBird.Top += gravity; 
             PipeUp.Left -= PipeSpeed; 
